@@ -1,6 +1,7 @@
-![crypto-tracker](https://user-images.githubusercontent.com/30101735/64287227-20a9fd00-cf2d-11e9-8059-53be8dc5738c.png)This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![crypto-tracker](https://user-images.githubusercontent.com/30101735/64287227-20a9fd00-cf2d-11e9-8059-53be8dc5738c.png)
 
-A Crypto Currency Tracker created in react.
+## A Crypto Currency Tracker created in react.
+Read below on how to start the app.
 
 ## Available Scripts
 
