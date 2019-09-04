@@ -1,33 +1,89 @@
-.App {
-  text-align: center;
-}
+body{
+  background: #000046;
+  height: 100vh;
+  margin: 0 auto;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header{
+  background: #000046;
+  margin: 0;
+  padding: .25rem 3rem;
+  color:white;
+  box-shadow: 0 3px 5px rgba(40,60,134,.5);
+}
+.contain{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 3rem;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.crypt-container {
+  min-width:350px;
+  max-width: 350px;
+  height: auto;
+  flex: 1;
+  margin: 1rem .5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.maindata {
+  padding:1rem;
+  color:rgb(255, 235, 187) ;
+  text-align: center;
+  background: rgb(252,74,26);
+  background: linear-gradient(150deg, rgba(252,74,26,1) 0%, rgba(247,183,51,1) 100%);
+  box-shadow: 4px 7px 1px rgba(132, 84, 71, .5);
+  border-radius: 1rem;
+}
+.crypt-container button {
+  font-size: 1rem;
+  padding: .5rem 3rem;
+  display: flex;
+  margin: 0 auto;
+  border-radius: .5rem;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  color:  rgba(252,74,26,1);
+  background: white;
+  background: linear-gradient(90deg, rgba(255,220,147,1) 0%, rgba(255,255,255,1) 100%);
+}
+#LTC .maindata{
+  color:rgb(223, 192, 255);
+  background: rgb(127,0,255);
+  background: linear-gradient(150deg, rgba(127,0,255,1) 0%, rgba(225,0,255,1) 100%);
+  box-shadow: 4px 7px 1px rgba(112, 62, 162, .5);
+}
+#LTC button {
+  color:  rgb(127,0,255);
+  background: white;
+  background: linear-gradient(90deg, rgb(223, 192, 255) 0%, rgba(255,255,255,1) 100%);
+}
+#BCH .maindata{
+  color:rgb(148, 240, 247);
+  background: rgb(54,209,220);
+  background: linear-gradient(150deg, rgba(54,209,220,1) 0%, rgba(91,134,229,1) 100%);
+  box-shadow: 4px 7px 1px rgba(43, 61, 128, .5);
+}
+#BCH  button {
+  color:  rgb(54, 148, 220);
+  background: white;
+  background: linear-gradient(90deg, rgb(199, 247, 251) 0%, rgba(255,255,255,1) 100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#USDT .maindata {
+  color:rgb(138, 214, 139);
+  background: rgb(40,60,134);
+  background: linear-gradient(150deg, rgba(40,60,134,1) 0%, rgba(69,162,71,1) 100%);;
+  box-shadow: 4px 7px 1px rgba(11, 80, 11, .5);
+}
+#USDT button {
+  color:  rgb(42, 132, 44);
+  background: white;
+  background: linear-gradient(90deg, rgb(218, 255, 218) 0%, rgba(255,255,255,1) 100%);
+}
+
+.details{
+  text-align: left;
+   padding: 0 1rem;
 }
